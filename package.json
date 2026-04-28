@@ -1,11 +1,12 @@
 {
   "name": "thebabalola-stacks-helpers-transactions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Build, sign, broadcast, batch, and manage Stacks L2 transactions",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "scripts": {
     "build": "tsc"
@@ -13,7 +14,7 @@
   "dependencies": {
     "@stacks/transactions": "^7.2.0",
     "@stacks/network": "^7.2.0",
-    "richiey1-stacks-helpers-types": "^1.0.0"
+    "richiey1-stacks-helpers-types": "^1.0.1"
   },
   "devDependencies": {
     "typescript": "^5.0.0"
@@ -32,11 +33,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/StacksTrench/stacks-helpers-transactions",
-    "directory": "packages/transactions"
+    "url": "https://github.com/thebabalola/thebabalola-stacks-helpers-transactions"
   },
   "bugs": {
-    "url": "https://github.com/StacksTrench/stacks-helpers-transactions/issues"
+    "url": "https://github.com/thebabalola/thebabalola-stacks-helpers-transactions/issues"
   },
-  "homepage": "https://github.com/StacksTrench/stacks-helpers-transactions#readme"
+  "homepage": "https://github.com/thebabalola/thebabalola-stacks-helpers-transactions#readme"
 }

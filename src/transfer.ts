@@ -2,8 +2,8 @@ import {
   makeSTXTokenTransfer,
   broadcastTransaction,
 } from "@stacks/transactions";
-import type { BatchResult } from "stacks-types-sdk";
-import { MAINNET } from "stacks-types-sdk";
+import type { BatchResult } from "cest-types-sdk";
+import { MAINNET } from "cest-types-sdk";
 
 export interface TransferOptions {
   recipient: string;

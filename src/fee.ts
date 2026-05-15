@@ -1,4 +1,4 @@
-import { API_URLS } from "richiey1-stacks-helpers-types";
+import { API_URLS } from "stacks-types-sdk";
 
 export async function estimateFee(
   txType: "token_transfer" | "smart_contract" | "contract_call",
